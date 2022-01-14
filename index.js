@@ -6,6 +6,6 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-import { RabinKarp } from './src/rabinkarp.js'
+import { RabinKarp } from './src/rabin-karp.js'
 
 export { RabinKarp };

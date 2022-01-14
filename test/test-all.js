@@ -8,7 +8,7 @@
 
 import { strict as assert } from 'assert';
 
-import { RabinKarp } from '../src/rabinkarp.js'
+import { RabinKarp } from '../src/rabin-karp.js'
 
 function testFind() {
     let s = 'ababbbabbbabaababaaabaaaaabababaabcdabdbabab';
