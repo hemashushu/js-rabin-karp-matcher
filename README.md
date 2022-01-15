@@ -28,4 +28,4 @@ Hash 算法是比较特殊的，它支持滚动更新，当从末尾抛弃一个
 
 有时可能跟踪程序的运行也能帮助对程序的理解，启动单步调试的方法是：
 
-在 vscode 里打开该项目，然后在单元测试文件 [test-all.js](./test/test-all.js) 或者源码 [rabinkarp.js](./src/rabinkarp.js) 里设置断点，然后执行 `Run and Debug` 即可。
+在 vscode 里打开该项目，然后在单元测试文件 [test-all.js](./test/test-all.js) 或者源码 [rabin-karp.js](./src/rabin-karp.js) 里设置断点，然后执行 `Run and Debug` 即可。
