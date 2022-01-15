@@ -12,6 +12,7 @@
         "url": "git+ssh://git@github.com/hemashushu/js-rabin-karp-matcher.git"
     },
     "author": "Hemashushu <hippospark@gmail.com>",
+    "keywords":["rabin-karp"],
     "license": "MPL-2.0",
     "bugs": {
         "url": "https://github.com/hemashushu/js-rabin-karp-matcher/issues"
