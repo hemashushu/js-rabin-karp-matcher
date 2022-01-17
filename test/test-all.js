@@ -26,25 +26,8 @@ function testFind() {
     assert.equal(RabinKarp.find(s, k4), s.indexOf(k4));
 }
 
-function testFindWithFakeHash() {
-    let s = 'ababbbabbbabaababaaabaaaaabababaabcdabdbabab';
-
-    let k1 = 'abaab';
-    assert.equal(RabinKarp.findWithFakeHash(s, k1), s.indexOf(k1));
-
-    let k2 = 'aaaab';
-    assert.equal(RabinKarp.findWithFakeHash(s, k2), s.indexOf(k2));
-
-    let k3 = 'aabaaa';
-    assert.equal(RabinKarp.findWithFakeHash(s, k3), s.indexOf(k3));
-
-    let k4 = 'abcdabd';
-    assert.equal(RabinKarp.findWithFakeHash(s, k4), s.indexOf(k4));
-}
-
 function testRabinKarp() {
     testFind();
-    testFindWithFakeHash();
     console.log('testRabinKarp() passed.');
 }
 
